@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Error Management Syntax</title>
+</head>
+<body>   
+</body>
+
+<script>
+    function siteComponent(func) {
+        return func();
+    }
+
+    widget = () => {
+        return '<div>Hi there</div>';
+    }
+
+    try {
+        console.log(siteComponent(widget));
+    } catch(e) {
+        console.log('An error occured with the siteComponent', e);
+    }
+    
+</script>
+</html>

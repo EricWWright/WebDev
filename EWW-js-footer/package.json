@@ -1,0 +1,26 @@
+{
+  "name": "eww-js-footer",
+  "version": "0.2.1",
+  "description": "This module allows for a dynamic footer to be generated for JS applications with an updated year and name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricWWright/EWW-js-footer.git"
+  },
+  "keywords": [
+    "footer"
+  ],
+  "author": "Eric W Wright <tddragonknight@gmail.com> (https://www.npmjs.com/~ericwwright)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EricWWright/EWW-js-footer/issues"
+  },
+  "homepage": "https://github.com/EricWWright/EWW-js-footer#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {}
+}
